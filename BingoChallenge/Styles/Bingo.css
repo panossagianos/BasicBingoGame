@@ -1,0 +1,104 @@
+﻿body {
+    font-family: Calibri;
+}
+
+table.playingArea {
+    width: 570px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+td.notificationsArea {
+    width: 200px;
+    vertical-align: top;
+}
+
+table.ticket {
+    border: solid 1px white;
+    display: inline-block;
+    margin: 2px;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+td.ticket {
+    cursor: default;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+p {
+    display: inline-block;
+    color: darkblue;
+    font-size: 15px;
+    margin: 5px;
+}
+
+td.tableNumber {
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    width: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: solid 1px white;
+    background-color: darkblue;
+    color: white;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 0.2s ease;
+}
+
+    button.enabled:hover {
+        background-color: white;
+        color: darkblue;
+        border-color: darkblue;
+    }
+
+    button.disabled {
+        opacity: 0.6;
+    }
+
+.ticket.winningValue {
+    background-color: white;
+    color: darkblue;
+    border: solid 1px darkblue;
+}
+
+.winningTicket {
+    background-color: yellowgreen;
+}
+
+#stripArea {
+    border: solid 1px darkblue;
+    vertical-align: top;
+}
